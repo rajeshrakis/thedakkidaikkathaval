@@ -1,14 +1,14 @@
-# ThedakkidaikkathavalBot
-![𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑](https://images.hdqwalls.com/wallpapers/agent-cat-girl-4k-jw.jpg)
-# 𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑
+# KURUMIBOT
+![KURUMI Chan](https://telegra.ph/file/e86cbb3e4a413f36c5aae.jpg)
+# KURUMI Chan
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)!]
 
 
-A modular Telegram Group Management bot made using [𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑](https://t.me/thedakkidaikkathaval_bot) as base repo.
+A modular Telegram Group Management bot made using [KURUMI Chan](https://t.me/Kurumi_0bot) as base repo.
 
-Can be found on telegram as [𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑](https://t.me/thedakkidaikkathaval_bot).
+Can be found on telegram as [KURUMI Chan](https://t.me/Kurumi_0bot).
 
-The Support group can be reached out to at [thedakkidaikkathaval Support](https://t.me/rakis_support), where you can ask for help about [𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑](https://t.me/thedakkidaikkathaval_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [KURUMI Support](https://t.me/kurumisupport), where you can ask for help about [KURUMI Chan](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
@@ -25,7 +25,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rajeshrakis/thedakkidaikathaval.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TAMILVIP007/kurumi.git)
 
 </details>  
 <details>
@@ -49,16 +49,16 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from ThedakkidaikkathavalBot.sample_config import Config
+from KURUMIBOT.sample_config import Config
 
 class Development(Config):
-    OWNER_ID = 1281282633  # your telegram ID
-    OWNER_USERNAME = "rajeshrakis"  # your telegram username
+    OWNER_ID = 254318997  # your telegram ID
+    OWNER_USERNAME = "SonOfLars"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    JOIN_LOGGER = '-1001583803480' # some group chat that your bot is a member of
+    JOIN_LOGGER = '-1234567890' # some group chat that your bot is a member of
     USE_JOIN_LOGGER = True
-    DRAGONS = [1281282633, 2021138895]  # List of id's for users which have sudo access to the bot.
+    DRAGONS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
@@ -135,7 +135,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from ThedakkidaikkathavalBot import dispatcher`.
+`from KURUMIBOT import dispatcher`.
 
 You can then add commands using the usual
 
@@ -155,7 +155,7 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m ThedakkidaikkathavalBot`
+`python3 -m KURUMIBOT`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
@@ -165,10 +165,10 @@ Note: the restart bat requires that User account control be disabled.
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rajeshrakis/thedakkidaikathaval.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/KURUMIBOT.git) 
 
 
 ## Credits
-The bot is based on the original work done by [Hirojazz](https://github.com/rajeshrakis) also futher development done by 𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑 creator.
+The bot is based on the original work done by [Hirojazz](https://github.com/Hirojazz) also futher development done by KURUMI Chan creator.
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
