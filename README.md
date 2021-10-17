@@ -172,3 +172,4 @@ For starters click on this button
 The bot is based on the original work done by [Hirojazz](https://github.com/rajeshrakis) also futher development done by 𝖙𝖍𝖊𝖉𝖆 𝕶𝖎𝖉𝖆𝖎𝖐𝖐𝖆𝖙𝖍𝖆𝖛𝖆𝖑 creator.
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
+
